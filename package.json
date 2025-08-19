@@ -4,17 +4,12 @@
   "private": true,
   "homepage": "https://lemos-pedro.github.io/zentury",
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
-    "lint": "next lint",
-<<<<<<< HEAD
-    "start": "next start" 
-    "homepage": "https://drucci.pt",
-=======
+    "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "predeploy": "next build",
     "deploy": "gh-pages -d out"
->>>>>>> 3fc69df (Corrige package.json inválido e ajustes no layout)
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -68,14 +63,6 @@
     "vaul": "^0.9.6",
     "zod": "^3.24.1"
   },
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
   "devDependencies": {
     "@types/node": "^22",
     "@types/react": "^18.2.0",
@@ -86,4 +73,5 @@
     "typescript": "^5"
   }
 }
+
 
